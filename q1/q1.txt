@@ -1,0 +1,11 @@
+git commit -m "A"
+git checkout -b develop
+git commit -m "B"
+git checkout master
+git commit -m "C"
+git merge develop -m "D"
+git checkout develop
+git commit -m "E"
+git checkout master
+git merge develop -m "F"
+git checkout 6799
